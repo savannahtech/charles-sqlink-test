@@ -502,6 +502,7 @@ span {
   width: 100%;
   overflow: hidden;
   margin-bottom: 20px;
+  transition: 0.4s;
 }
 
 .accordion {
@@ -559,7 +560,8 @@ span {
   color: var(--primary);
 }
 
-#content-wrapper .active {
+#content-wrapper .active,
+.accordion-holder:hover {
   background-color: #ccc;
   color: var(--secondary) !important;
 }
