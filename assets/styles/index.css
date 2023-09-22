@@ -897,7 +897,7 @@ legend {
 
 .dotten-div {
   border: 2.7px dotted var(--primary);
-  height: 130px;
+  height: 125px;
   border-radius: 60px;
   border-right: 0;
   border-right: none;
@@ -913,8 +913,7 @@ legend {
   width: 55%;
   border-radius: 60px 0 0 60px;
   position: relative;
-  top: 10px;
-  height: calc(100% - 10px);
+  height: 100%;
   display: block;
   background: #FFF;
   border-bottom: 2.7px dotted var(--primary);
@@ -922,7 +921,7 @@ legend {
 
 .dotten-div2 {
   border: 2.7px dotted var(--primary);
-  height: 130px;
+  height: 125px;
   border-radius: 60px;
   border-left: none;
   border-top-left-radius: 0;
@@ -936,7 +935,7 @@ legend {
   width: 55%;
   border-radius: 0 60px 60px 0;
   position: relative;
-  height: calc(100% - 10px);
+  height: 100%;
   left: 45%;
   display: block;
   background: #FFF;
