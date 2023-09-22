@@ -84,6 +84,11 @@ span {
   background-color: var(--white);
 }
 
+
+.app-nav .mobile-profile {
+  display: none;
+}
+
 .app-nav .nav-logo2 {
   display: none;
 }
@@ -129,6 +134,7 @@ span {
   display: none;
   transform: rotate(45deg);
   margin: 5px auto;
+  cursor: pointer;
 }
 
 .nav-logo-text {
@@ -454,11 +460,11 @@ span {
   justify-content: space-between;
 }
 
-.footer-form h2{
+.footer-form h2 {
   font-size: 40px;
 }
 
-.footer-form button{
+.footer-form button {
   padding: 18px 0;
 }
 
@@ -490,19 +496,29 @@ span {
 }
 
 /* Accordion styling */
-.accordion {
+.accordion-holder {
   background-color: #f8f8f8;
+  border-radius: 14px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.accordion {
+  width: 100%;
   color: var(--secondary);
+  background: transparent !important;
   cursor: pointer;
   padding: 5px 18px 12px 18px;
-  width: 100%;
   border: none;
   text-align: left;
   outline: none;
   font-size: 16px;
   transition: 0.4s;
-  border-radius: 15px;
-  margin-top: 10px;
+}
+
+.mobile-btn-acc{
+  display: none;
 }
 
 .accordion .inner-left {
@@ -533,8 +549,6 @@ span {
   font-size: 12px;
 }
 
-
-
 .accordion .markup-icon {
   width: 20px;
   height: 20px;
@@ -545,8 +559,7 @@ span {
   color: var(--primary);
 }
 
-#content-wrapper .active,
-.accordion:hover {
+#content-wrapper .active {
   background-color: #ccc;
   color: var(--secondary) !important;
 }
@@ -768,7 +781,8 @@ span {
   width: 63px;
 }
 
-.info-img-wrapper .plane-div .plane-img {    height: 44px;
+.info-img-wrapper .plane-div .plane-img {
+  height: 44px;
   position: absolute;
   left: -55px;
   bottom: -22px;

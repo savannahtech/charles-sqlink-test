@@ -1,33 +1,52 @@
 /* Extra Small Devices (phones) */
 @media only screen and (max-width: 480px) {
+  .right-sidebar-logo{
+    display: none;
+  }
+  
   .accordion {
     display: flex;
     flex-direction: column-reverse;
-    padding: 15px 11px 10px 10px;
+    padding: 20px 10px;
     justify-content: center;
     align-items: center;
+    position: relative;
   }
 
   .accordion .accordion-icon,
-  .accordion #Expand_Item {
-    float: none;
-    margin-top: 10px;
-    height: 12px;
+  .accordion svg#Expand_Item {
+    display: none;
   }
 
   .accordion .markup-text {
     text-align: center;
-    margin-top: 1px;
+    margin-top: 5px;
+    width: 46px;
+    font-size: 14px;
   }
 
   .accordion .markup-icon {
-    height: 12px;
-    width: 12px;
+    height: 14px;
+    width: 14px;
   }
 
   .accordion-title {
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 0px;
+  }
+
+  .mobile-btn-acc{
+    width: 100%;
+    height: 21px;
+    background: #EDEDED 0% 0% no-repeat padding-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobile-btn-acc svg{
+    width: 10px;
+    height: 10px;
   }
 
   .panel-facewrapper {
@@ -44,14 +63,23 @@
   }
 
   .nav-right .search-d3 {
-    padding: 15px;
+    width: 52px;
+    padding: 10px;
   }
 
   .nav-right .search-d2 {
     margin-right: 78px;
   }
 
-  .app-nav .nav-logo2 {
+  .nav-right .search-d2 img {
+    width: 115px;
+  }
+
+  .app-nav {
+    height: 52px !important;
+  }
+
+  .app-nav .mobile-profile {
     display: block;
     height: 26px;
     width: 26px;
@@ -64,9 +92,34 @@
     align-items: center;
   }
 
-  .app-nav .nav-logo {
+  .app-nav .profile {
     display: none;
   }
+
+  .body-center {
+    top: 40px;
+  }
+
+  .inner-h {
+    font-size: 30px;
+  }
+
+  .f-med {
+    font-size: 20px;
+  }
+
+  .first-card {
+    margin: 20px 30px !important;
+    padding: 20px 12px;
+  }
+
+  #content-wrapper {
+    padding: 30px !important;
+  }
+
+  .accordion .f-med {
+    font-size: 18px !important;
+}
 
   .bottom-card {
     flex-direction: column;
@@ -94,8 +147,17 @@
     font-size: 12px;
   }
 
+  .accordion .inner-left {
+    padding: 0 6px;
+    margin-right: 4px;
+  }
+
   .inner-left span {
-    font-size: 10px;
+    font-size: 14px;
+  }
+
+  .inner-left span.text-primary {
+    font-size: 12px;
   }
 
   #mobile-bottom-tab {
@@ -188,14 +250,14 @@
     font-size: 8px;
     padding: 5px;
   }
-
-  .first-card {
-    padding: 23px 9px;
-  }
 }
 
 /* Small Devices (tablets and larger phones) */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
+.right-sidebar-logo{
+  display: none;
+}
+
   .footer-form {
     width: 70%;
   }
@@ -239,6 +301,10 @@
 
 /* Medium Devices (tablets landscape, small laptops) */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .right-sidebar-logo{
+    display: none;
+  }
+
   .info-img-wrapper,
   .info-img-wrapper-2 {
     min-height: 500px;
