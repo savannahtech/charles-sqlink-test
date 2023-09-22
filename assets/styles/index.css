@@ -127,6 +127,8 @@ span {
 
 .nav-right .search-d3 #close-tag {
   display: none;
+  transform: rotate(45deg);
+  margin: 5px auto;
 }
 
 .nav-logo-text {
@@ -454,6 +456,10 @@ span {
 
 .footer-form h2{
   font-size: 40px;
+}
+
+.footer-form button{
+  padding: 18px 0;
 }
 
 .footer-contact {
