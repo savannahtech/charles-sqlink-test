@@ -96,7 +96,7 @@ span {
 .app-nav .nav-logo,
 .search-d2 img {
   width: 152px;
-  margin: 0 12px;
+  margin: 0 16px;
 }
 
 #app-container .app-nav .nav-right {
@@ -131,12 +131,13 @@ span {
 
 .nav-logo-text {
   padding-right: 10px;
+  font-size: 19px;
 }
 
 .nav-logo-search {
   padding-right: 10px;
   cursor: pointer;
-  height: 23px;
+  height: 29px;
   margin-top: 5px;
 }
 
@@ -151,8 +152,8 @@ span {
 }
 
 .search-div {
-  margin: 0 8px;
-  padding-right: 8px;
+  margin: 0 12px;
+  padding-right: 12px;
   border-right: 1px solid rgb(31, 128, 191, 0.5);
   display: flex;
 }
@@ -165,13 +166,14 @@ span {
   display: none;
   position: absolute;
   background-color: var(--secondary);
-  padding: 10px 8px;
-  top: 58px;
-  right: 33px;
+  padding: 16px 12px;
+  top: 78px;
+  right: 54px;
   z-index: 100;
   border: 1px solid var(--secondary);
   border-radius: 10px;
-  font-size: 14px;
+  font-size: 20px;
+  letter-spacing: 1.04px;
 }
 
 #lang-dropdown .lang-items {
@@ -193,18 +195,19 @@ span {
 #lang-dropdown-tri {
   display: none;
   position: absolute;
-  top: 48px;
-  right: 64px;
-  width: 0;
+  top: 60px;
+  border-radius: 5px;
+  right: 94px;
+  width: 22px;
   height: 0;
-  border-left: 7px solid transparent;
-  border-right: 7px solid transparent;
-  border-bottom: 15px solid var(--secondary);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 22px solid var(--secondary);
 }
 
 #lang-dropdown-btn {
   cursor: pointer;
-  height: 12px;
+  height: 13px;
   padding-right: 4px;
 }
 
@@ -220,7 +223,7 @@ span {
   left: 0;
   height: 100vh;
   z-index: 1;
-  top: 53px;
+  top: 10px;
   display: none;
 }
 
@@ -247,7 +250,7 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 8px
+  gap: 16px
 }
 
 .left-sidebar .left-sidebar-icons ul li img {
@@ -255,12 +258,12 @@ span {
 }
 
 .right-sidebar {
-  width: 20%;
+  width: 12%;
   position: fixed;
   right: 7.5%;
   height: 100vh;
   z-index: 1;
-  top: 97px;
+  top: 84px;
   display: none;
 }
 
@@ -352,7 +355,7 @@ span {
   width: 44.6%;
   position: relative;
   left: 35%;
-  top: 109px;
+  top: 84px;
   padding-bottom: 100px;
   padding-top: 20px;
 }
@@ -393,11 +396,6 @@ span {
   font-size: 16px;
 }
 
-#header-btn-2 {
-  background-color: var(--primary);
-  color: #FFFFFF;
-}
-
 #bottom-wrapper {
   width: 100%;
   position: relative;
@@ -406,6 +404,8 @@ span {
 
 .bottom-card {
   color: var(--white);
+  background: url('../images/map.jpeg') left top no-repeat;
+  background-size: 95%;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -414,8 +414,7 @@ span {
 
 #bottom-wrapper {
   position: relative;
-  background: url('../images/map.jpeg');
-  background-size: auto 100%;
+  background-color: #266692;
 }
 
 #content-wrapper {
@@ -446,14 +445,20 @@ span {
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  width: 40%;
-  padding: 25px;
+  width: 46%;
+  max-width: 438px;
+  padding: 44px;
   border-radius: 20px;
   justify-content: space-between;
 }
 
+.footer-form h2{
+  font-size: 40px;
+}
+
 .footer-contact {
-  width: 24%;
+  width: 38%;
+  padding-right: 10%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -461,12 +466,21 @@ span {
 }
 
 .footer-contact h2 {
-  font-size: 19px;
+  font-size: 30px;
   display: flex;
 }
 
+.footer-contact p.mini {
+  font-size: 16px;
+}
+
+.footer-contact p {
+  font-size: 20px;
+  line-height: 27px;
+}
+
 .footer-contact h2 .footer-icon1 {
-  margin-left: 5px;
+  margin-left: 12px;
 }
 
 /* Accordion styling */
@@ -748,12 +762,10 @@ span {
   width: 63px;
 }
 
-.info-img-wrapper .plane-div .plane-img {
-  height: 50px;
+.info-img-wrapper .plane-div .plane-img {    height: 44px;
   position: absolute;
-  left: -39px;
-  bottom: -26px;
-  width: 50px;
+  left: -55px;
+  bottom: -22px;
 }
 
 .info-img-wrapper,
@@ -810,7 +822,7 @@ legend {
   flex-wrap: wrap;
   justify-content: space-around;
   position: absolute;
-  top: -90px;
+  top: -80px;
   direction: rtl;
 }
 
@@ -873,28 +885,6 @@ legend {
   height: 12px;
 }
 
-/* .dotten-div {
-  border: 2.7px dotted var(--primary);
-  height: 120px;
-  border-radius: 50px;
-  border-right: none;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  margin-right: 41px;
-  opacity: 1;
-}
-
-.dotten-div2 {
-  border: 2.7px dotted var(--primary);
-  height: 120px;
-  border-radius: 50px;
-  border-left: none;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  border-top: transparent;
-  opacity: 1;
-} */
-
 .dotten-div {
   border: 2.7px dotted var(--primary);
   height: 125px;
@@ -935,16 +925,30 @@ legend {
   width: 55%;
   border-radius: 0 60px 60px 0;
   position: relative;
-  height: 100%;
+  height: calc(100% - 2.7px);
   left: 45%;
   display: block;
   background: #FFF;
   border-top: 2.7px dotted var(--primary);
 }
 
+.info-img-wrapper-2 .dotten-div {
+  border-color: var(--secondary);
+}
+
+.info-img-wrapper-2 .dotten-div2,
+.info-img-wrapper-2 .dotten-div,
+.info-img-wrapper-2 .dotten-div::after,
+.info-img-wrapper-2 .dotten-div2::after {
+  border-color: var(--secondary);
+}
+
 .footer-icon1 {
-  height: 25px;
-  width: 25px;
+  height: 32px;
+}
+
+.text-green .footer-icon1 {
+  height: 28px;
 }
 
 .footer-line {
@@ -982,7 +986,7 @@ legend {
 }
 
 #s-fourth {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 #s-fourth button {
@@ -1190,7 +1194,7 @@ legend {
 }
 
 .custom-input {
-  height: 40px;
+  height: 54px;
   border-radius: 40px;
   background-color: var(--gallery);
   border: 1px solid var(--gallery);
