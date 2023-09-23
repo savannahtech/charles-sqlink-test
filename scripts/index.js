@@ -12,6 +12,7 @@ const bottomModalDiv = document.getElementsByClassName('bottom-modal-div')[0];
 const modalBtn = document.getElementById('toggleModalBtn');
 const headerBtn = document.getElementById('header-btn');
 const headerBtn2 = document.getElementById('header-btn-2');
+let acc_btn = document.getElementsByClassName('mobile-btn-acc')
 
 let toggleDropdown = 0;
 let show = 1;
@@ -24,6 +25,16 @@ for (i = 0; i < acc.length; i++) {
     this.classList.toggle('active');
     var panel = this.nextElementSibling;
 
+    const this_btn = this.nextElementSibling.nextElementSibling
+
+    if (this_btn.children[0].style.display == 'block') {
+      this_btn.children[0].style.display = 'none';
+      this_btn.children[1].style.display = 'block';
+    } else {
+      this_btn.children[0].style.display = 'block';
+      this_btn.children[1].style.display = 'none';
+    }
+
     if (panel.style.maxHeight) {
       panel.style.maxHeight = null;
       if (accordionTitle) accordionTitle.style.marginBottom = '0';
@@ -33,6 +44,14 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+for (i = 0; i < acc.length; i++) {
+  acc_btn[i].addEventListener('click', function () {
+    this.previousElementSibling.previousElementSibling.dispatchEvent(new MouseEvent('click'))
+  })
+}
+
+
 
 function toggleVisibility() {
   if (show) {
