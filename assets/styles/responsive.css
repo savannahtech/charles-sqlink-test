@@ -418,16 +418,6 @@
     min-height: 435px;
   }
 
-  /* .dotten-div,
-  .dotten-div2 {
-    height: 120px;
-  }
-
-  .info-img-wrapper-2 .dotten-div,
-  .info-img-wrapper-2 .dotten-div2 {
-    height: 120px;
-  } */
-
   .ci-inner-bottom {
     font-size: 8px;
     padding: 5px;
@@ -464,32 +454,6 @@
     min-height: 670px;
     margin-bottom: 0 !important;
   }
-
-  /* .dotten-div,
-  .dotten-div2 {
-    height: 140px;
-  }
-
-  .info-img-wrapper-2 .dotten-div,
-  .info-img-wrapper-2 .dotten-div2 {
-    height: 140px;
-  } */
-
-  /*   .circle-wrapper .ci {
-    width: 130px;
-    height: 130px;
-    margin-bottom: 10px !important;
-  }
-
-  .circle-wrapper .ci-inner {
-    width: 120px;
-    height: 120px;
-  } */
-
-  /* .ci-inner-bottom {
-    font-size: 10px;
-    padding: 5px;
-  } */
 
   .bottom-card {
     flex-direction: column;
@@ -589,12 +553,6 @@
     min-height: 500px;
   }
 
-  /* .circle-wrapper .ci {
-    margin-bottom: 13px;
-    width: 130px;
-    height: 130px;
-  } */
-
   .dotten-div,
   .dotten-div2 {
     height: 165px;
@@ -604,12 +562,6 @@
   .info-img-wrapper-2 .dotten-div2 {
     height: 165px;
   }
-
-  /* .circle-wrapper .ci-inner {
-    width: 120px;
-    height: 120px;
-    padding: 5px;
-  } */
 
   .right-sidebar {
     padding: 20px;
@@ -709,15 +661,9 @@
 
 /* Large Devices (laptops and desktops) */
 @media only screen and (min-width: 1025px) and (max-width: 1439px) {
-  /* Your styles here */
-
   .info-img-wrapper,
   .info-img-wrapper-2 {
     min-height: 375px;
-  }
-
-  .right-sidebar-wrapper {
-    padding: 20px 20px 20px 30px;
   }
 }
 
