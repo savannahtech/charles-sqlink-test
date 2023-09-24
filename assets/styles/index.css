@@ -227,7 +227,7 @@ span {
   width: 33%;
   display: flex;
   flex-direction: row;
-  position: absolute;
+  position: fixed;
   left: 0;
   height: 100vh;
   z-index: 1;
@@ -266,9 +266,11 @@ span {
 }
 
 .right-sidebar {
-  width: 12%;
+  min-width: 12%;
+  width: 20%;
+  padding-left: 20px;
   position: fixed;
-  right: 7.5%;
+  right: 0;
   height: 100vh;
   z-index: 1;
   top: 84px;
@@ -495,7 +497,7 @@ span {
   margin-left: 12px;
 }
 
-.mobile-footer{
+.mobile-footer {
   display: none;
 }
 
@@ -522,7 +524,7 @@ span {
   transition: 0.4s;
 }
 
-.mobile-btn-acc{
+.mobile-btn-acc {
   display: none;
 }
 
@@ -909,6 +911,12 @@ legend {
 
 .ci-innter-center {
   height: 12px;
+}
+
+
+
+.c-container svg#Group_91088 {
+  display: none;
 }
 
 .dotten-div {
