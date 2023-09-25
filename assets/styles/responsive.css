@@ -4,6 +4,10 @@
     display: none;
   }
 
+  .desktop-cc {
+    display: none;
+  }
+
   .accordion {
     display: flex;
     flex-direction: column-reverse;
@@ -500,6 +504,10 @@
     border-radius: 13px;
   }
 
+  .desktop-cc {
+    display: none;
+  }
+
   .mobile-footer {
     display: block;
     margin: 30px 0;
@@ -661,6 +669,7 @@
 
 /* Large Devices (laptops and desktops) */
 @media only screen and (min-width: 1025px) and (max-width: 1439px) {
+
   .info-img-wrapper,
   .info-img-wrapper-2 {
     min-height: 375px;

@@ -408,14 +408,62 @@ span {
 
 #bottom-wrapper {
   width: 100%;
+  background: url('../images/map.jpeg') left top no-repeat;
+  background-size: 95%;
   position: relative;
   z-index: 3;
 }
 
+.desktop-cc {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px 20px 80px;
+}
+
+.desktop-cc .right {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.52);
+  gap: 16px;
+}
+
+.desktop-cc ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  padding-bottom: 20px;
+}
+
+ul.bd-top {
+  border-top: 1px solid rgba(255, 255, 255, 0.52);
+  padding-top: 20px;
+}
+
+.desktop-cc ul li {
+  list-style: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.desktop-cc p.bd-left {
+  border-left: 1px solid  rgba(255, 255, 255, 0.52);
+  padding-left: 16px
+}
+
+.desktop-cc svg {
+  width: 91px;
+  height: 44px;
+}
+
 .bottom-card {
   color: var(--white);
-  background: url('../images/map.jpeg') left top no-repeat;
-  background-size: 95%;
   display: flex;
   flex-direction: row;
   width: 100%;
