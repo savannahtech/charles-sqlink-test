@@ -1241,6 +1241,7 @@ legend {
   background-color: var(--gallery);
   border: 1px solid var(--gallery);
   resize: none;
+  padding: 10px;
 }
 
 .link {
