@@ -18,30 +18,30 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Atlas Regular', arial, tahoma;
+  font-family: "Atlas Regular", arial, tahoma;
 }
 
 @font-face {
-  font-family: 'Atlas Regular';
-  src: url('../font/atlas-regular-aaa.woff2') format('woff2');
+  font-family: "Atlas Regular";
+  src: url("../font/atlas-regular-aaa.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'Atlas Medium';
-  src: url('../font/atlas-medium-aaa.woff2') format('woff2');
+  font-family: "Atlas Medium";
+  src: url("../font/atlas-medium-aaa.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'Atlas Bold';
-  src: url('../font/atlas-bold-aaa.woff2') format('woff2');
+  font-family: "Atlas Bold";
+  src: url("../font/atlas-bold-aaa.woff2") format("woff2");
 }
 
 body {
-  font-family: 'Atlas Regular', arial, tahoma;
+  font-family: "Atlas Regular", arial, tahoma;
 }
 
 .f-reg {
-  font-family: 'Atlas Regular';
+  font-family: "Atlas Regular";
 }
 
 .f-med {
@@ -50,17 +50,17 @@ body {
 }
 
 .f-bold {
-  font-family: 'Atlas Bold';
+  font-family: "Atlas Bold";
 }
 
 ::placeholder {
   color: #d0d0d0;
   opacity: 1;
-  font-family: 'Atlas Regular';
+  font-family: "Atlas Regular";
 }
 
 span {
-  font-family: 'Atlas Regular';
+  font-family: "Atlas Regular";
 }
 
 #app-container {
@@ -83,7 +83,6 @@ span {
   z-index: 2;
   background-color: var(--white);
 }
-
 
 .app-nav .mobile-profile {
   display: none;
@@ -236,14 +235,14 @@ span {
 }
 
 .left-sidebar .left-sidebar-bg {
-  background: url('../images/bg2.png') right;
+  background: url("../images/bg2.png") right;
   background-repeat: no-repeat;
   background-size: cover;
   width: 531px;
 }
 
 .body-center .mobile-top-bg {
-  background-image: url('../images/bg3.png');
+  background-image: url("../images/bg3.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 250px;
@@ -258,7 +257,7 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 16px
+  gap: 16px;
 }
 
 .left-sidebar .left-sidebar-icons ul li img {
@@ -314,7 +313,7 @@ span {
 }
 
 .right-sidebar .link-wrapper li:hover::after {
-  content: '<';
+  content: "<";
   padding-left: 8px;
 }
 
@@ -407,7 +406,7 @@ span {
 
 #bottom-wrapper {
   width: 100%;
-  background: url('../images/map.jpeg') left top no-repeat;
+  background: url("../images/map.jpeg") left top no-repeat;
   background-size: 95%;
   position: relative;
   z-index: 3;
@@ -452,8 +451,8 @@ ul.bd-top {
 }
 
 .desktop-cc p.bd-left {
-  border-left: 1px solid  rgba(255, 255, 255, 0.52);
-  padding-left: 16px
+  border-left: 1px solid rgba(255, 255, 255, 0.52);
+  padding-left: 16px;
 }
 
 .desktop-cc svg {
@@ -584,14 +583,14 @@ ul.bd-top {
   font-size: 20px;
 }
 
-.accordion.active>#Expand_Item {
+.accordion.active > #Expand_Item {
   transform: rotate(45deg);
 }
 
 .accordion #Expand_Item {
   float: left;
   margin: 32px 16px;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .accordion .accordion-icon {
@@ -661,7 +660,7 @@ ul.bd-top {
   width: 65%;
 }
 
-.panel-faceleft .d-flex.col.d-end{
+.panel-faceleft .d-flex.col.d-end {
   padding-right: 16px;
 }
 
@@ -830,7 +829,7 @@ ul.bd-top {
 .card-footer-wrapper .f-right,
 .card .f-right {
   background-color: var(--lightgreen);
-  width: 20%;
+  width: 18%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -877,7 +876,7 @@ fieldset {
 }
 
 legend {
-  font: 15pt/0 'Atlas Regular';
+  font: 15pt/0 "Atlas Regular";
   margin: auto;
   padding: 0 4px;
   color: var(--primary);
@@ -966,8 +965,6 @@ legend {
   height: 12px;
 }
 
-
-
 .c-container svg#Group_91088 {
   display: none;
 }
@@ -986,13 +983,13 @@ legend {
 }
 
 .dotten-div::after {
-  content: '';
+  content: "";
   width: 55%;
   border-radius: 60px 0 0 60px;
   position: relative;
   height: 100%;
   display: block;
-  background: #FFF;
+  background: #fff;
   border-bottom: 2.7px dotted var(--primary);
 }
 
@@ -1008,14 +1005,14 @@ legend {
 }
 
 .dotten-div2::after {
-  content: '';
+  content: "";
   width: 55%;
   border-radius: 0 60px 60px 0;
   position: relative;
   height: calc(100% - 2.7px);
   left: 45%;
   display: block;
-  background: #FFF;
+  background: #fff;
   border-top: 2.7px dotted var(--primary);
 }
 
@@ -1250,7 +1247,7 @@ legend {
   padding: 5px 10px;
   border: none;
   cursor: pointer;
-  font-family: 'Atlas Regular';
+  font-family: "Atlas Regular";
 }
 
 .btn-primary {
@@ -1430,7 +1427,6 @@ legend {
   font-size: 12px !important;
 }
 
-
 /* Additional */
 .profile {
   margin-left: 48px;
@@ -1447,7 +1443,7 @@ legend {
   text-align: right;
   font: normal normal normal 20px/12px AtlasPro AAA;
   letter-spacing: 0.26px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .profile p {
