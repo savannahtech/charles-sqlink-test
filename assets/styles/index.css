@@ -736,15 +736,34 @@ ul.bd-top {
 }
 
 .p-upload button {
-  height: 100%;
+  padding: 12px;
   border-radius: 27px;
-  width: 150px;
+  width: 202px;
   font-size: 16px;
   margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-upload button {
+  padding: 12px 0;
+  border-radius: 27px;
+  width: 202px;
+  font-size: 16px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.p-upload button img {
+  width: 25px;
+  margin-left: 2px;
 }
 
 .p-upload p {
-  font-size: 13px;
+  font-size: 16px;
   color: var(--secondary);
   padding-right: 10px;
 }
@@ -797,8 +816,8 @@ ul.bd-top {
   width: 80%;
   padding: 10px;
   color: var(--white);
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 .card-footer-wrapper .f-left {
@@ -833,8 +852,8 @@ ul.bd-top {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .card-footer-wrapper .f-right img {
