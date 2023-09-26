@@ -45,7 +45,7 @@ body {
 }
 
 .f-med {
-  font-family: 'Atlas Medium';
+  /* font-family: 'Atlas Medium'; */
   font-size: 27px;
 }
 
@@ -239,7 +239,7 @@ span {
   background: url('../images/bg2.png') right;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 647px;
+  width: 531px;
 }
 
 .body-center .mobile-top-bg {
@@ -262,7 +262,7 @@ span {
 }
 
 .left-sidebar .left-sidebar-icons ul li img {
-  height: 23px;
+  width: 24px;
 }
 
 .right-sidebar {
@@ -288,7 +288,7 @@ span {
 
 .right-sidebar span {
   color: var(--secondary);
-  font: normal normal normal 28px/27px AtlasPro AAA;
+  font-size: 28px !important;
 }
 
 .right-sidebar .arrowImg {
@@ -298,11 +298,10 @@ span {
 
 .right-sidebar .link-wrapper {
   list-style: none;
-  margin-top: 12px;
 }
 
 .right-sidebar .link-wrapper li {
-  margin-top: 20px;
+  margin-top: 30px;
   color: var(--primary);
   font-size: 20px;
   padding-right: 8px;
@@ -385,7 +384,7 @@ span {
 }
 
 .inner-h {
-  margin-top: 25px;
+  margin-top: 30px;
   color: var(--secondary);
   font-size: 40px;
   padding-right: 16px;
@@ -1258,6 +1257,11 @@ legend {
   color: var(--primary);
   background-color: transparent;
   border: 1px solid var(--primary);
+}
+
+.btn-primary-outline > span {
+  border-right: 1px solid #638b5d85;
+  padding-right: 6px;
 }
 
 .btn-secondary {
