@@ -298,7 +298,7 @@ span {
 
 .right-sidebar .link-wrapper {
   list-style: none;
-  margin-top: 20px;
+  margin-top: 12px;
 }
 
 .right-sidebar .link-wrapper li {
@@ -743,6 +743,7 @@ ul.bd-top {
 .p-upload p {
   font-size: 13px;
   color: var(--secondary);
+  padding-right: 10px;
 }
 
 .p-uploadBtn-div {
