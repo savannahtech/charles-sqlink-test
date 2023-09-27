@@ -396,6 +396,10 @@ span {
   border-radius: 0.625rem;
 }
 
+.first-card h3 {
+  font-size: 1.6875rem;
+}
+
 .first-card button {
   padding: 0.625rem 0.875rem;
   border-radius: 0.625rem;
@@ -479,8 +483,7 @@ ul.bd-top {
 #content-wrapper {
   border: 0.0625rem solid var(--primary);
   border-radius: 1.5625rem;
-  margin-top: 3.125rem;
-  margin-bottom: 1.875rem;
+  margin-top: 2.5rem;
   padding: 1.25rem;
 }
 
@@ -569,7 +572,7 @@ ul.bd-top {
   color: var(--secondary);
   background: transparent !important;
   cursor: pointer;
-  padding: 0.3125rem 1.125rem 0.75rem 1.125rem;
+  padding: 0.3125rem 1.225rem 0.75rem 1.125rem;
   border: none;
   text-align: left;
   outline: none;
@@ -592,6 +595,10 @@ ul.bd-top {
 
 .accordion.active > #Expand_Item {
   transform: rotate(45deg);
+}
+
+.accordion.active > div > div.d-flex {
+  margin-top: 40px;
 }
 
 .accordion #Expand_Item {
