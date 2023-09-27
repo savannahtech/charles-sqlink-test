@@ -1422,6 +1422,10 @@ legend {
   margin-right: 0.625rem;
 }
 
+.accordion-holder .p-2 .text-secondary.mb-2 {
+  margin-right: 0;
+}
+
 .d-flex.row.d-end img.ml-1{
   margin-left: 1.125rem;
 }
