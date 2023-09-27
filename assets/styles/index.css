@@ -45,7 +45,7 @@ body {
 }
 
 .f-med {
-  /* font-family: 'Atlas Medium'; */
+  font-family: 'Atlas Medium';
   font-size: 27px;
 }
 
@@ -138,14 +138,13 @@ span {
 
 .nav-logo-text {
   padding-right: 10px;
-  font-size: 19px;
+  font-size: 18px;
 }
 
 .nav-logo-search {
   padding-right: 10px;
   cursor: pointer;
-  height: 29px;
-  margin-top: 5px;
+  height: 27px;
 }
 
 .search-input {
@@ -214,8 +213,8 @@ span {
 
 #lang-dropdown-btn {
   cursor: pointer;
-  height: 13px;
-  padding-right: 4px;
+  height: 12px;
+  padding-right: 2.5px;
 }
 
 #app-content2 {
@@ -230,14 +229,14 @@ span {
   left: 0;
   height: 100vh;
   z-index: 1;
-  top: 10px;
+  top: 20px;
   display: none;
 }
 
 .left-sidebar .left-sidebar-bg {
-  background: url("../images/bg2.png") right;
+  background: url("../images/bg2.png") right top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 120%;
   width: 531px;
 }
 
@@ -251,13 +250,13 @@ span {
 
 .left-sidebar .left-sidebar-icons ul {
   list-style: none;
-  margin-top: 140px;
-  margin-left: 20px;
+  margin-top: 150px;
+  margin-left: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 15px;
 }
 
 .left-sidebar .left-sidebar-icons ul li img {
@@ -393,7 +392,7 @@ span {
   background-color: var(--bg-primary);
   color: var(--primary);
   padding: 33px;
-  margin-top: 55px;
+  margin-top: 67px;
   border-radius: 10px;
 }
 
@@ -483,6 +482,10 @@ ul.bd-top {
   margin-top: 50px;
   margin-bottom: 30px;
   padding: 20px;
+}
+
+#content-wrapper > .d-flex {
+  margin-bottom: 30px;
 }
 
 .content-top {
@@ -607,8 +610,8 @@ ul.bd-top {
 }
 
 .accordion .markup-icon {
-  width: 20px;
-  height: 20px;
+  width: 21px;
+  height: 21px;
 }
 
 .accordion .markup-text {
@@ -770,6 +773,7 @@ ul.bd-top {
   font-size: 16px;
   color: var(--secondary);
   padding-right: 19px;
+  font-weight: 600;
 }
 
 .p-uploadBtn-div {
@@ -1392,10 +1396,12 @@ legend {
 
 .p-2 {
   padding: 10px;
+  padding-right: 20px;
 }
 
 .p-2 .d-flex.row {
   margin: 16px;
+  margin-top: 18px;
 }
 
 .p-2 .d-flex.row {
@@ -1404,15 +1410,16 @@ legend {
 }
 
 .p-2 .d-flex.row.mt-1 {
-  margin-right: 24px;
+  margin-right: 12px;
 }
 
 .p-2 .text-secondary.f-bold {
   margin: 16px;
+  margin-right: 10px;
 }
 
 .p-2 .text-secondary.mb-2 {
-  margin-right: 30px;
+  margin-right: 10px;
 }
 
 .d-flex.row.d-end img.ml-1{
