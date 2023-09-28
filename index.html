@@ -2,11 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta id="myViewport" name="viewport" content="width = 414, user-scalable=yes" />
+    <meta id="myViewport" name="viewport" content="width = 414, initial-scale=1" />
     <script>
-      if (screen.width > 768) {
+      if (window.screen.width > 768) {
         var mvp = document.getElementById("myViewport");
-        mvp.setAttribute("content", `width=1920, user-scalable=yes`);
+        let scale = window.innerWidth / 1920
+        mvp.setAttribute("content", `width=1920, initial-scale=${scale}`);
       }
     </script>
     <title>איכות מי השתיה שלנו</title>
