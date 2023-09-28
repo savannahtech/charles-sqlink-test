@@ -20,7 +20,7 @@
 
   .panel-faceleft .pdf-text-div {
     margin-top: 0.5rem;
-}
+  }
 
   .desktop-cc {
     display: none;
@@ -106,7 +106,7 @@
 
   .third-section {
     height: auto !important;
-    margin: 0 1.875rem 1.25rem 1.875rem !important;
+    margin: 2rem 1.875rem 4rem 1.875rem !important;
   }
 
   #s-fourth {
@@ -204,6 +204,11 @@
     padding: 1.25rem 0.75rem;
   }
 
+  .first-card h3 {
+    font-size: 1.25rem;
+    padding-right: 0.3125rem;
+  }
+
   #content-wrapper {
     padding: 1.875rem !important;
     margin-top: 0;
@@ -227,7 +232,7 @@
 
   .bottom-card {
     flex-direction: column;
-    padding: 3.125rem 1.25rem 6.875rem 1.25rem;
+    padding: 4.35rem 1.25rem 6.875rem 1.25rem;
     background-size: inherit !important;
   }
 
@@ -241,11 +246,33 @@
     padding: 1.25rem;
   }
 
-  .footer-form .d-flex span {
-    display: none !important;
+  .footer-form h2 {
+    font-size: 2rem;
+}
+
+.footer-form .d-flex span {
+  display: none !important;
+}
+
+.footer-form .d-flex.mb-2 {
+  margin: 6px !important;
+}
+
+.footer-form button {
+  margin-top: 0.75rem;
+}
+
+  footer input {
+    font-size: 1rem;
   }
 
   .custom-input::placeholder {
+    font-weight: bold !important;
+    opacity: 1;
+    color: #256693;
+  }
+
+  .custom-textarea::placeholder {
     font-weight: bold !important;
     opacity: 1;
     color: #256693;
@@ -392,9 +419,15 @@
   .ci-inner-bottom {
     font-size: 0.875rem;
     letter-spacing: 0rem;
-    padding: 0.3125rem;
+    padding: 0.125rem;
     width: 7.8125rem;
     margin: auto;
+    line-height: 1.125rem;
+  }
+
+  .ci-inner-bottom>span {
+
+    text-align: center;
   }
 
   .ci-innter-center {
@@ -471,6 +504,10 @@
     color: #d0d0d0;
   }
 
+  hr.mb-2 {
+    margin-bottom: 0.95rem;
+  }
+
   .p-2 .text-secondary.mb-2 {
     margin-right: 0.625rem;
   }
@@ -478,6 +515,10 @@
   .p-2 .text-secondary.mb-2 {
     margin-right: 0;
     padding-left: 5.625rem;
+  }
+
+  .accordion-holder .p-2 .text-secondary.mb-2 {
+    margin-top: 0;
   }
 }
 
