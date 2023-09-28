@@ -527,6 +527,8 @@ ul.bd-top {
 }
 
 .footer-contact {
+  background: url('../svgs/footer-img.svg') no-repeat right;
+  background-position-y: 140%;
   width: 38%;
   padding-right: 10%;
   display: flex;

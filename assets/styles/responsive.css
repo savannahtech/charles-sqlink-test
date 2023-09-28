@@ -34,10 +34,10 @@
     display: block;
   }
 
-  .p-uploadBtn-div>p.mobile {
+  .p-uploadBtn-div > p.mobile {
     font-size: 1rem;
     font-weight: 300;
-    color: #D0D0D0;
+    color: #d0d0d0;
     padding-right: 0.625rem;
   }
 
@@ -226,7 +226,7 @@
     margin-top: 0.3125rem !important;
   }
 
-  .accordion .d-flex>.mt-1 {
+  .accordion .d-flex > .mt-1 {
     margin-top: 0.375rem;
   }
 
@@ -234,6 +234,10 @@
     flex-direction: column;
     padding: 4.35rem 1.25rem 6.875rem 1.25rem;
     background-size: inherit !important;
+  }
+
+  #bottom-wrapper {
+    background-size: 300%;
   }
 
   .footer-form-wrapper {
@@ -248,19 +252,19 @@
 
   .footer-form h2 {
     font-size: 2rem;
-}
+  }
 
-.footer-form .d-flex span {
-  display: none !important;
-}
+  .footer-form .d-flex span {
+    display: none !important;
+  }
 
-.footer-form .d-flex.mb-2 {
-  margin: 6px !important;
-}
+  .footer-form .d-flex.mb-2 {
+    margin: 6px !important;
+  }
 
-.footer-form button {
-  margin-top: 0.75rem;
-}
+  .footer-form button {
+    margin-top: 0.75rem;
+  }
 
   footer input {
     font-size: 1rem;
@@ -280,10 +284,15 @@
 
   .footer-contact {
     width: 100%;
+    margin-top: -2.5rem;
     padding: 0 1.25rem;
-  }
+    padding-top: 8rem;
+    z-index: -1;
+    background-position-y: -6%;
+    position: relative;
+}
 
-  .footer-contact>p:first-of-type {
+  .footer-contact > p:first-of-type {
     width: 100%;
     padding: 1.25rem 0;
     border-top: 0.0625rem solid rgba(255, 255, 255, 0.5);
@@ -425,8 +434,7 @@
     line-height: 1.125rem;
   }
 
-  .ci-inner-bottom>span {
-
+  .ci-inner-bottom > span {
     text-align: center;
   }
 
@@ -611,7 +619,7 @@
     padding: 0 10%;
   }
 
-  .footer-contact>p:first-of-type {
+  .footer-contact > p:first-of-type {
     width: 100%;
     padding: 1.25rem 0;
     border-top: 0.0625rem solid rgba(255, 255, 255, 0.5);
@@ -752,7 +760,6 @@
 }
 
 @media only screen and (min-width: 64.0625rem) and (max-width: 75.125rem) {
-
   .dotten-div,
   .dotten-div2 {
     display: none !important;
@@ -791,7 +798,6 @@
 
 /* Large Devices (laptops and desktops) */
 @media only screen and (min-width: 64.0625rem) and (max-width: 89.9375rem) {
-
   .info-img-wrapper,
   .info-img-wrapper-2 {
     min-height: 23.4375rem;
